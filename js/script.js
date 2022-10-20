@@ -17,4 +17,4 @@ if( age <= 18 ) {
 
 console.log( price ) ;
 
-document.querySelector('h1').innerHTML = price;
+document.querySelector('h1').innerHTML = (`il prezzo del biglietto è di euro10 ${price}`);
