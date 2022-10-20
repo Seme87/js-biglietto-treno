@@ -16,3 +16,5 @@ if( age <= 18 ) {
 }
 
 console.log( price ) ;
+
+document.querySelector('h1').innerHTML = price;
