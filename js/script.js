@@ -4,7 +4,7 @@ const age = Number( prompt("inserisci la tua età") );
 const chilometers = Number( prompt("inserisci la distanza in km") );
 //PREZZO DEL BIGLIETTO
 let price = (chilometers * 0.21);
-console.log(price);21
+console.log(price);
 
 //PREZZO DEL BIGLIETTO SE L'ETA' DELL'UTENTE E MINORE O UGUALE A 18 ANNI O MAGGIORE UGUALE DI 65
 if( age <= 18 ) {
@@ -12,5 +12,7 @@ if( age <= 18 ) {
    
 } else if( age >= 65 ) {
     price = ( chilometers * 0.21 ) * 0.40 ;
-    console.log( price);
+    console.log( price ) ;
 }
+
+console.log( price ) ;
